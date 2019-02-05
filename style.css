@@ -1,0 +1,51 @@
+/*
+Theme Name: Marvel Studios
+Theme URI: 
+Author: Tardeli da Rocha
+Description: Tema Marvel Studios com Bootstrap e HTML5. Tema responsivo.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+footer{
+	margin-top: 20px;
+	background-color: red;
+}
+
+.rodape{
+	color: white;
+}
+.icon-centro{
+	text-align:center;
+}
+
+.nav li a {
+  font-family: 'Oxygen', sans-serif;	
+  display: block;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.nav li a:hover {
+  background-color: #555;
+  color: white;  
+}
+
+main{
+	margin: 20px 0px 20px;
+}
+
+a{
+	color:black;
+}
+
+
+
+
+
+
