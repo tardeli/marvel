@@ -28,9 +28,9 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> style="background:#eee">
 
 
 
-<div id="page" class="site">
+<div id="page" class="site" >
 	<div id="content" class="site-content">

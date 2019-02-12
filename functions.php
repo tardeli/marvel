@@ -20,7 +20,24 @@
     'primary' => 'Primary Menu', 'Principal'
  ) );
  
+ //imagem destacada
+ add_theme_support( 'post-thumbnails' );
+ set_post_thumbnail_size(825, 510, true);
  
+ //wigdth
+ function novos_init(){
+	 register_sidebar(array(
+		'name'=> 'footer',
+		'id'=>'footer',
+		'before_widget'=>'<div class=\'lateral\'>',
+		'after_widget'=>'</div>',
+		'before_title'=>'<h2>',
+		'after_title'=>'</h2>',
+		
+	 ));
+ }
+ 
+ add_action('widgets_init','novos_init');
  
  
 
